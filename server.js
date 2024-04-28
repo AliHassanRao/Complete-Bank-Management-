@@ -1,10 +1,10 @@
 const express = require("express");
 const mongoose = require("mongoose");
-const path=require("path");
+const path = require("path");
 const dotenv = require("dotenv");
 const userRoutes = require("./routes/userRoute");
 const statmentRoutes = require("./routes/statmentRoute");
-const {requireSignIn,isAdmin}=require('./middleware/authMiddleware')
+const { requireSignIn, isAdmin } = require("./middleware/authMiddleware");
 const cors = require("cors");
 const app = express();
 app.use(cors());
@@ -25,11 +25,7 @@ mongoose
 
 app.use(userRoutes);
 app.use(statmentRoutes);
-app.use(express.static(path.join(__dirname,'./client/build')))
 
-app.use('*',function(req, res){
-  res.sendFile(path.join(__dirname,'./client/build/index.html'))
-});
 const port = process.env.PORT || 8000;
 app.listen(port, (err) => {
   if (err) {
