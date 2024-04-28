@@ -1,0 +1,14 @@
+.service-card {
+  transition: transform 2s; /* Add a smooth transition effect */
+}
+
+.service-card:hover {
+  transform: scale(1.03); /* Increase the size on hover */
+  box-shadow: 0 0 10px rgba(237, 3, 3, 0.2); /* Add a subtle shadow on hover */
+}
+.g {
+  margin-right: 140px !important;
+}
+body {
+  background-image: "./";
+}

@@ -1,0 +1,56 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .navbar {
+    /* Add your navbar styles here */
+  }
+  
+  .content {
+    text-align: center;
+  }
+  
+  .content h1 {
+    font-size: 2.5rem;
+  }
+  
+  .content h1 span {
+    color: #007bff; /* You can change the color as needed */
+  }
+  
+  .form {
+    margin-top: 20px;
+    width: 300px;
+  }
+  
+  .form h2 {
+    margin-bottom: 20px;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .btnn {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff; /* You can change the background color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btnn:hover {
+    background-color: #0056b3; /* You can change the hover color */
+  }
+  
