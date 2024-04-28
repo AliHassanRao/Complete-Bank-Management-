@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7bccf1d7.css",
+    "main.js": "/static/js/main.c01a5547.js",
+    "static/media/pin.png": "/static/media/pin.ba631a416a8f4d489a15.png",
+    "static/media/balance.png": "/static/media/balance.05b0820f4a509c684a62.png",
+    "static/media/deposit.png": "/static/media/deposit.fc7d9ec201d35e52d444.png",
+    "static/media/statment.png": "/static/media/statment.fe15d3d117b81c4121d5.png",
+    "static/media/cash.png": "/static/media/cash.9b13ecc2114df5f0c580.png",
+    "static/media/transfer.png": "/static/media/transfer.c716359694644ba9fbb7.png",
+    "index.html": "/index.html",
+    "main.7bccf1d7.css.map": "/static/css/main.7bccf1d7.css.map",
+    "main.c01a5547.js.map": "/static/js/main.c01a5547.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7bccf1d7.css",
+    "static/js/main.c01a5547.js"
+  ]
+}
